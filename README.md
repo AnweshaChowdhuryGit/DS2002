@@ -14,7 +14,7 @@ A dimensional data lakehouse built using PySpark and the Medallion Architecture 
 - **Gold**: Aggregated analytics-ready tables
 
 ## Data Sources
-- MySQL: AdventureWorks OLTP database
+- MySQL: AdventureWorks OLTP database (
 - MongoDB: 
 - Files: CSV/JSON batch files
 
