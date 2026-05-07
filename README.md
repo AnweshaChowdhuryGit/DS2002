@@ -23,3 +23,5 @@ A dimensional data lakehouse built using PySpark and the Medallion Architecture 
 
 ## Fact Tables
 - fact_purchase_orders
+
+<img width="570" height="427" alt="image" src="https://github.com/user-attachments/assets/278d40f3-91f0-48a3-804c-496ab63d0e1b" />
