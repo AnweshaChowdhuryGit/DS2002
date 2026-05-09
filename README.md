@@ -7,11 +7,11 @@ Final Project Repository
 A dimensional data lakehouse built using PySpark and the Medallion Architecture (Bronze/Silver/Gold).
 
 ## Architecture
-- **Batch Layer**: Data extracted from MySQL and CSV/JSON files
-- **Streaming Layer**: Spark AutoLoader processes JSON files simulating real-time data
-- **Bronze**: Raw ingested data
-- **Silver**: Cleaned and joined with dimension tables
-- **Gold**: Aggregated analytics-ready tables
+- **Batch Layer**: Data was extracted from MySQL and CSV/JSON files
+- **Streaming Layer**: Spark AutoLoader processed the JSON files to simulate the real-time data component
+- **Bronze**: Here was the raw ingested data
+- **Silver**: Next, data was clean and joined with dimension tables (including date dimension)
+- **Gold**: Aggregated analytics-ready tables were analyzed for business insights
 
 ## Data Sources
 - MySQL: AdventureWorks OLTP database; batch read for customers, employees, and date dimensions 
